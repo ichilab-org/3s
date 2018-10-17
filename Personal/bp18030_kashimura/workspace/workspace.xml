@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--自動生成されたファイルです。編集しないで下さい。-->
+<Workspace>
+  <version>
+    <string value="0.4"/>
+  </version>
+  <projectsDir>
+    <string value="projects"/>
+  </projectsDir>
+  <widgetsDir>
+    <string value="widgets"/>
+  </widgetsDir>
+  <resourcesDir>
+    <string value="resources"/>
+  </resourcesDir>
+</Workspace>
