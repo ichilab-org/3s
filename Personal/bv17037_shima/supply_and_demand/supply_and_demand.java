@@ -29,7 +29,7 @@ public class supply_and_demand extends JFrame
 
         Timer timer;
 		int t = 0;
-		int n = 20;
+		int n = 10000;
 		int[] line = new int[n];
 		int head = 0, tail=0;
 		public MyJPanel()
@@ -46,11 +46,14 @@ public class supply_and_demand extends JFrame
 			super.paintComponent(g);
 			g.fillRect(100, 100, 160, 100);
 			double r = Math.random();
-			if(r<0.5){
+			if(r<0.33){
 				tail += 1;
 				line[tail%n] = t;
 			}
-			if(head < tail && line[head%n] <= t-5)head += 1;
+			if(head < tail && line[head%n] <= t-3){
+				head += 1;
+				line[(head+1)%n] = t;
+			}
 			for(int i=0;i<tail-head;i++){
 				System.out.println(tail-head);
 				g.fillOval(180, 200 + 10 * i,10,10);
