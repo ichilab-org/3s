@@ -1,0 +1,26 @@
+モデル エージェントの行動計画（エージェントシミュレーション） の開始: 2018-11-28 16:18:07
+Traceback (most recent call last):
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\backends\backend_wx.py", line 1068, in _onLeftButtonDown
+    FigureCanvasBase.button_press_event(self, x, y, 1, guiEvent=evt)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\backend_bases.py", line 1903, in button_press_event
+    self.callbacks.process(s, mouseevent)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\cbook.py", line 563, in process
+    proxy(*args, **kwargs)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\cbook.py", line 430, in __call__
+    return mtd(*args, **kwargs)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\backend_bases.py", line 1787, in pick
+    self.figure.pick(mouseevent)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\artist.py", line 452, in pick
+    a.pick(mouseevent)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\axes\_base.py", line 3635, in pick
+    martist.Artist.pick(self, args[0])
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\artist.py", line 452, in pick
+    a.pick(mouseevent)
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\artist.py", line 441, in pick
+    for a in self.get_children():
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\axis.py", line 706, in get_children
+    majorticks = self.get_major_ticks()
+  File "C:\Program Files\Mathematical Systems Inc\Python3\lib\site-packages\matplotlib\axis.py", line 1302, in get_major_ticks
+    tick = self.majorTicks[i]
+IndexError: list index out of range
+モデル エージェントの行動計画（エージェントシミュレーション） の終了: 2018-11-28 16:23:42
