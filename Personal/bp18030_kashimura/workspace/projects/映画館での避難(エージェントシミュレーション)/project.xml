@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--自動生成されたファイルです。編集しないで下さい。-->
+<Project>
+  <modelFile>
+    <string value="model.sim"/>
+  </modelFile>
+  <inputDir>
+    <string value="input"/>
+  </inputDir>
+  <outputDir>
+    <string value="output"/>
+  </outputDir>
+  <dataDir>
+    <string value="data"/>
+  </dataDir>
+  <version>
+    <string value="0.1"/>
+  </version>
+</Project>
