@@ -1,0 +1,305 @@
+bgmode: 0
+matrix: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - &id012 !!python/name:numpy.ndarray ''
+  - !!python/tuple [0]
+  - b
+  state: !!python/tuple
+  - 1
+  - !!python/tuple [!!python/long '3', !!python/long '3']
+  - !!python/object/apply:numpy.dtype
+    args: [f8, 0, 1]
+    state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+  - false
+  - !!binary |
+    AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAPA/
+pngimage: null
+poly: !!python/object/apply:Polygon.__createPolygon
+- !!python/tuple
+  - !!python/tuple
+    - !!python/tuple [41.160679462141559, 86.198814235934137]
+    - !!python/tuple [34.002300425247377, 86.198814235934137]
+    - !!python/tuple [34.002300425247377, 33.704034632043452]
+    - !!python/tuple [41.160679462141559, 33.704034632043452]
+  - !!python/tuple
+    - !!python/tuple [11.63236593495305, 87.98840899515767]
+    - !!python/tuple [7.7549106233020328, 87.98840899515767]
+    - !!python/tuple [7.7549106233020328, 31.616174079615984]
+    - !!python/tuple [11.63236593495305, 31.616174079615984]
+  - !!python/tuple
+    - !!python/tuple [93.058927479624401, 7.4566448300981101]
+    - !!python/tuple [3.8774553116510173, 7.4566448300981101]
+    - !!python/tuple [3.8774553116510173, 94.848522238847949]
+    - !!python/tuple [93.058927479624401, 94.848522238847949]
+- !!python/tuple [true, true, false]
+regions:
+- flag: false
+  pts: !!python/object/apply:Polygon.__createPolygon
+  - !!python/tuple
+    - !!python/tuple
+      - !!python/tuple [3.8774553116510173, 7.4566448300981101]
+      - !!python/tuple [3.8774553116510173, 94.848522238847949]
+      - !!python/tuple [93.058927479624401, 94.848522238847949]
+      - !!python/tuple [93.058927479624401, 7.4566448300981101]
+  - !!python/tuple [false]
+- flag: true
+  pts: !!python/object/apply:Polygon.__createPolygon
+  - !!python/tuple
+    - !!python/tuple
+      - !!python/tuple [7.7549106233020328, 87.98840899515767]
+      - !!python/tuple [7.7549106233020328, 31.616174079615984]
+      - !!python/tuple [11.63236593495305, 31.616174079615984]
+      - !!python/tuple [11.63236593495305, 87.98840899515767]
+  - !!python/tuple [false]
+- flag: true
+  pts: !!python/object/apply:Polygon.__createPolygon
+  - !!python/tuple
+    - !!python/tuple
+      - !!python/tuple [34.002300425247377, 86.198814235934137]
+      - !!python/tuple [34.002300425247377, 33.704034632043452]
+      - !!python/tuple [41.160679462141559, 33.704034632043452]
+      - !!python/tuple [41.160679462141559, 86.198814235934137]
+  - !!python/tuple [false]
+route: !!python/object:networkx.classes.graph.Graph
+  adj: &id011
+    0:
+      1: &id001 {}
+      9: &id009 {}
+    1:
+      0: *id001
+      2: &id002 {}
+    2:
+      1: *id002
+      3: &id003 {}
+    3:
+      2: *id003
+      4: &id004 {}
+    4:
+      3: *id004
+      5: &id005 {}
+    5:
+      4: *id005
+      7: &id006 {}
+    6:
+      7: &id007 {}
+      8: &id008 {}
+    7:
+      5: *id006
+      6: *id007
+    8:
+      6: *id008
+      10: &id010 {}
+    9:
+      0: *id009
+    10:
+      8: *id010
+  edge: *id011
+  graph: {}
+  node:
+    0:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          hZ9z8DkbMEA3OQPWm/BCQA==
+      r: 1.0
+    1:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          EfMWFpVnMECyE2nsFTRJQA==
+      r: 1.0
+    2:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          nUa6O/CzMECiygonIwhQQA==
+      r: 1.0
+    3:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          nUa6O/CzMEAZDmyfsgNTQA==
+      r: 1.0
+    4:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          jM18LA+rNkA60Ad0hjhWQA==
+      r: 1.0
+    5:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          kvuFaOQ6PUD84tRoyRZTQA==
+      r: 1.0
+    6:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          7wCc99JVPEA9ZwwScYBJQA==
+      r: 1.0
+    7:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          Y6340XcJPEAuHq5MflRQQA==
+      r: 1.0
+    8:
+      attrs: !!set {}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          Y6340XcJPEDDjKb79jxDQA==
+      r: 1.0
+    9:
+      attrs: !!set {!!python/unicode 'start': null}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          tO0Ah6ZMMUCINniOJGMzQA==
+      r: 3.0
+    10:
+      attrs: !!set {!!python/unicode 'goal': null}
+      p: !!python/object/apply:numpy.core.multiarray._reconstruct
+        args:
+        - *id012
+        - !!python/tuple [0]
+        - b
+        state: !!python/tuple
+        - 1
+        - !!python/tuple [!!python/long '2']
+        - !!python/object/apply:numpy.dtype
+          args: [f8, 0, 1]
+          state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+        - false
+        - !!binary |
+          q6LMs5rTPUC4hAUlkZQ0QA==
+      r: 3.0
+scale: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args: [f8, 0, 1]
+  state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+- !!binary |
+  /Knx0k1iUD8=
+space: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - *id012
+  - !!python/tuple [0]
+  - b
+  state: !!python/tuple
+  - 1
+  - !!python/tuple [!!python/long '2']
+  - !!python/object/apply:numpy.dtype
+    args: [f8, 0, 1]
+    state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+  - false
+  - "\0\0\0\0\0\0Y@\0\0\0\0\0\0Y@"
