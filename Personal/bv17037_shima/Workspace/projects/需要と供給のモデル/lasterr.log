@@ -1,9 +1,0 @@
-モデル 需要と供給のモデル の開始: 2018-10-24 18:09:25
-not specified
-Traceback (most recent call last):
-  Project "需要と供給のモデル", line 683, in <module>
-  Project "需要と供給のモデル", line 626, in __init__
-  Project "需要と供給のモデル", line 67, in __init__
-  File "build/V3/lib.win-amd64-3.6\psim\simobj.py", line 1913, in fatal
-RuntimeError: not specified
-モデル 需要と供給のモデル の終了: 2018-10-24 18:09:30
